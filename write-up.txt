@@ -1,0 +1,18 @@
+H(null): Legalizing Marijuana has no significant effect on crime rates
+
+H(alt): Legalizing Marijuana significantly lowers or increases crime rates
+
+I have 15 broad categories of crime, 
+I want to take a look at the top 5 most impacted ones for each city.
+
+I'll start with Denver.  
+We'll need plots for each type of crime,
+with year_month on the x-axis and counts (or maybe rates) on the y-axis
+
+
+
+Intro:
+Marijuana Legalization is a process here in the US, and I believe that eventually every state will fully legalize Cannabis for retail sale.  While many studies have been done on the health risks and benefits that marijuana posseses, I wanted to examine if legalization had any significant effect on crime rates.  The inspiration for this project came from this article on Forbes:
+
+https://www.forbes.com/sites/mikeadams/2018/03/28/california-officials-say-marijuana-legalization-causing-more-violent-crime/#650d545d2c3b
+
