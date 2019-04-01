@@ -78,3 +78,6 @@ After speaking with Moses today I'm not so sure this idea works:
 Right now my p-values are done using proportions of crime, but a better idea we discussed is comparint states where Cannabis is legal to states where it is not.
 Gotta go back and find new data, but I think I'll be able to get more out of the data this way.
 
+We will look for established trends before legalization, breaks in those trends after legalization,
+and breaks in areas that Cannabis is not legal to see if maybe there is some other effect reducing the type of crime.
+
