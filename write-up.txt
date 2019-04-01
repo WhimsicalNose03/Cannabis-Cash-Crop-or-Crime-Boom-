@@ -14,6 +14,9 @@ such as robbery, drug and alcohol, and public disorder to name a few.
 Different regions will have different categories of interest.
 
 alpha = 0.05
+Cost of a False Positive: 
+positive = do reject
+negative = cannot reject
 
 Los Angeles, CA:
 
@@ -47,7 +50,7 @@ Of the 5 categories in this brief analysis, we find only two categories that may
         With Cannabis fully legalized that eliminates the need to forge a prescription.
 
     Theft from Vehicles:
-        Trending up since Cannabis Legalization.
+        Trending up since Cannabis Legalization, barely on the cusp of being statistically significant.
         This one is a bit more difficult to understand.  Our p-value sits right on the edge of being significant, so I cannot dismiss these findings.
         One possible explanation for an increase in Theft from Vehicles could be that users of Cannabis are leaving their paraphernalia out in the open, 
         basically inviting thieves to get a good look at what they've got.
@@ -70,4 +73,8 @@ There were three categories that I expected to find significant results from, wh
         Our tests show no significant uptick, and I believe this has to do with the black market aspect of some of the targeted grow-houses:
             If a grow is not legal, the owners cannot call police and the crime cannot be reported. 
             Again, I can only analyze REPORTED crime events, so we may indeed have an influx of Pirates coming across state lines to smuggle Cannabis, it just goes unreported. 
+
+After speaking with Moses today I'm not so sure this idea works:
+Right now my p-values are done using proportions of crime, but a better idea we discussed is comparint states where Cannabis is legal to states where it is not.
+Gotta go back and find new data, but I think I'll be able to get more out of the data this way.
 
