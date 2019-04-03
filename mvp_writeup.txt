@@ -1,0 +1,44 @@
+Minimum Viable Product Write Up
+
+Question:
+What effects does legalizing recreational marijuana use have on crime rates of different types?
+
+Inspired by an article from Forbes:
+https://www.forbes.com/sites/mikeadams/2018/03/28/california-officials-say-marijuana-legalization-causing-more-violent-crime/#357310d62c3b
+
+H(null): Legalizing Marijuana has no significant correlation with crime rates
+
+H(alt): Legalizing Marijuana has a significant correlation with changing crime rates.
+
+P( increasingly lower crime rates | legalization has no effect)
+I've altered my view to look at the per capita crime rates of specific types of crime, based on the article above:
+Murder, Burglary, Larceny, Robbery, and Drug and Alcohol crime.
+
+alpha = 0.05 
+
+Right now my sample size is small so we're using t-tests.
+
+My control group consists of data in LA before legalization and New York City.  
+
+My test group is only Seattle at the moment; I decided to use this city first since Washington was the first state to fully legalize Cannabis.
+At the point in time where Washington legalized both CA and NY had medical programs, and I figured these cities are more alike than not.
+
+For MVP purposes I'm only looking at how yearly per capita crime rates may have been affected by legalization.  I assessed this based on the percent change in the per capita crime rate for each city.
+
+
+                |   Drug/Alc    |  Murder  |   Larceny   |    Burglary    |    Robbery    |
+  Control Cities               
+Los Angeles     |    +7.09%     |  -1.03%  |    +6.04%   |     -5.87%     |     -11.8%    |
+New York City   |   -9.67%      |  +77.9%  |    +4.11%   |    +1.30%      |    +1.26%     |
+
+  Test City
+Seattle         |   -11.6%      |  +2.17%  |    +0%      |    -5.50%      |     +0%       |
+
+avg             |   -.82%       |  -.66%   |   -1.34%    |    -3.36%      |     -3.51%    |
+t-stat          |   -1.42       |  -1.15   |   -2.33     |    -1.13       |     1.03      |
+p-value         |   0.30        |  0.40    |   0.20      |    0.40        |     0.40      |
+
+With a threshold set at 0.05 we find that none of the changes in per capita crime rate are statistically significant.
+This is okay - part of this project is disproving the idea that violent crimes (murder) or weed piracy (burglary, larceny and robbery) are on the rise.
+The results indicate that we cannot reject our H(null), not that it is proven.
+Its also interesting that Drug and Alcohol crime is not statistically significant, although this could change once more cities are added to my control group.
