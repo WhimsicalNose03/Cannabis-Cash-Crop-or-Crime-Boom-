@@ -15,5 +15,11 @@ Since legalizing Cannabis in 2018, officials in Sonoma County, California report
 In particular they mention a rise in "home invasions, violent crimes and robberies" perpetrated by people coming in from other states. The goal of my project is to determine if these "marijuana pirates" are having any significant impact on crime rates in regions where Cannabis has been legalized.
 
 # Process and Results
-To see the long term effects of legalization I began by looking at crime data from Seattle, since Washington was the first state to fully legalize Cannabis.  I then gathered data from other cities in an attempt to find one with similar trends in the data.  I went through several cities before finding that Portland, Oregon would serve best.
+To see the long term effects of legalization I began by looking at crime data from Seattle, since Washington was the first state to fully legalize Cannabis.  I then gathered data from other cities in an attempt to find one with similar trends in the data.  I went through several cities before finding that Portland, Oregon would serve as the best comparison.
+
+In order to make a fair comparison we need to verify that Portland and Seattle had similar crime rates before legalization occured in Washington in 2012.  This was accomplished using a set of hypotheses for running Hypothesis Tests:
+
+H(null): Violent Crime Rates experienced no significant change from the legalization of Cannabis
+
+H(alt): Violent Crime Rates have experienced significant change since the legalization of Cannabis.
 
