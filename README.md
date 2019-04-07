@@ -23,3 +23,8 @@ H(null): Violent Crime Rates experienced no significant change from the legaliza
 
 H(alt): Violent Crime Rates have experienced significant change since the legalization of Cannabis.
 
+# Technologies and Libraries Used
+* Python
+* Numpy
+* Pandas
+* MatPlotLib
