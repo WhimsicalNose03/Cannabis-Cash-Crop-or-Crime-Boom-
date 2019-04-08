@@ -26,7 +26,6 @@ H(alt): There is significant change in violent crime rates coinciding with legal
 
 # Results
 
-
 # Technologies and Libraries Used
 * Python
 * Numpy
