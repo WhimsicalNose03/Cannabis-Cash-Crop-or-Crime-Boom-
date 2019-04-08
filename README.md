@@ -18,7 +18,7 @@ To see the long term effects of legalization I began by looking at crime data fr
 
 This focus of this project is weed piracy, so I decided to look at crime types I associated with piracy: Homicides, Thefts, Robberies, and Burglaries.
 
-In order to make a fair comparison we need to verify that Portland and Seattle had similar crime rates before legalization occured in Washington in 2012.  This was accomplished using a set of hypotheses for running Hypothesis Tests:
+In order to make a fair comparison we need to verify that Portland and Seattle had similar crime rates before legalization occured in 2012 (Washington) and 2015 (Oregon), and see if there was any significant change after.  This was accomplished using a set of hypotheses for testing:
 
 H(null): There is no significant change in violent crime rates coinciding with legalization of Cannabis
 
@@ -28,6 +28,13 @@ H(alt): There is significant change in violent crime rates coinciding with legal
    ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/homicide_rates.png)![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/theft_rates.png)
 ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/burglary_rates.png)
 ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/robbery_rates.png)
+
+Cannabis became fully legal in Seattle in 2012, and in Portland in late 2014.  The above plots show illustrate a couple of key things:
+* Based on Homicide and Theft rates Seattle and Portland are decent approximations of each other
+* While rates for Burglary and Robbery are much more varied, we can see that those rates generally stay flat for both cities.
+* Most importantly: any spikes in crime in Seattle in 2012 and Portland in 2014 are not statistically significant.
+
+There is not enough evidence for us to say that there is a crime boom due to the legalization of Cannabis.
 
 # Technologies and Libraries Used
 * Python
