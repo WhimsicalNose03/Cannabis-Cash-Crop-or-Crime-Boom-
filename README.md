@@ -25,6 +25,9 @@ H(null): There is no significant change in violent crime rates coinciding with l
 H(alt): There is significant change in violent crime rates coinciding with legalization of Cannabis
 
 # Results
+   ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/homicide_rates.png)![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/theft_rates.png)
+![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/burglary_rates.png)
+![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/robbery_rates.png)
 
 # Technologies and Libraries Used
 * Python
