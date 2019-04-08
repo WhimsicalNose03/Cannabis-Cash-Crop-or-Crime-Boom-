@@ -29,7 +29,7 @@ H(alt): There is significant change in violent crime rates coinciding with legal
 ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/burglary_rates.png)
 ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/robbery_rates.png)
 
-(note: crime rates for Portland in 2015 are imputed)
+(note: crime rates for Portland in 2015 are imputed as average since 2010)
 
 Cannabis became fully legal in Seattle in 2012, and in Portland in late 2014.  The above plots show illustrate a couple of key things:
 * Murder rate in both cities appears to have spiked in the year of legalization; however, these increases are not statistically significant due to the low rate overall.
