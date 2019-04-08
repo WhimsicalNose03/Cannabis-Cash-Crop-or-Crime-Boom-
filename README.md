@@ -30,15 +30,13 @@ H(alt): There is significant change in violent crime rates coinciding with legal
 ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/robbery_rates.png)
 
 Cannabis became fully legal in Seattle in 2012, and in Portland in late 2014.  The above plots show illustrate a couple of key things:
-* Based on Homicide and Theft rates Seattle and Portland are decent approximations of each other
-* While rates for Burglary and Robbery are much more varied, we can see that those rates generally stay flat for both cities.
-* Most importantly: any spikes in crime in Seattle in 2012 and Portland in 2014 are not statistically significant.
-
-There is not enough evidence for us to say that there is a crime boom due to the legalization of Cannabis.
+* Murder rate in both cities appears to have spiked in the year of legalization; however, these increases are not statistically significant due to the low rate overall.
+* There is a significant rise on Seattle Burglaries (p = 0.0488) and Thefts (p < .00001) shortly after legalization in 2012, but the same cannot be said of Burglary and Theft in Portland following their legalization event in 2015.   
+* There simply is not enough evidence in the data to support the hypothesis that Weed Pirates are invading and inflating piracy-related crimes.
 
 # Technologies and Libraries Used
 * Python
 * Numpy
 * Pandas
 * MatPlotLib
-* Scipy
+* GitHub
