@@ -36,6 +36,8 @@ Cannabis became fully legal in Seattle in 2012, and in Portland in late 2014.  T
 * There is a significant rise on Seattle Burglaries (p = 0.0488) and Thefts (p < .00001) shortly after legalization in 2012, but the same cannot be said of Burglary and Theft in Portland following their legalization event in 2015.   
 * There is not enough evidence in the data to support the hypothesis that Weed Pirates are invading and inflating piracy-related crimes, as described in the article above.
 
+# Challenges
+The most challenging part of this project was sifting through crime datasets and finding a city that could serve as a viable control against Seattle.  In addition, each city had a slightly different method of data entry, so cleaning followed a similar but different process each set.  Furthermore, my data only covers *reported* crimes - if a crime gets unreported or miscategorized it will affect our analysis.
 # Technologies and Libraries Used
 * Python
 * Numpy
