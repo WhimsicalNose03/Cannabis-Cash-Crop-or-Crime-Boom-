@@ -7,14 +7,10 @@ This project was inspired by an article I read on Forbes:
 
 https://www.forbes.com/sites/mikeadams/2018/03/28/california-officials-say-marijuana-legalization-causing-more-violent-crime/#357310d62c3b
 
-It's a great read, but the tl;dr of it is this:
-
-Since legalizing Cannabis in 2018, officials in Sonoma County, California report experiencing an uptick in violent crimes.  
-
-In particular they mention a rise in "home invasions, violent crimes and robberies" perpetrated by people coming in from other states. The goal of my project is to determine if these "weed pirates" are having any significant impact on crime rates in regions where Cannabis has been legalized.
+In summary, the article alleges that criminals are crossing state borders to snatch up all the Cannabis they can and transport it back to their home state.  In particular the author mentions a rise in "home invasions, violent crimes and robberies" perpetrated by people coming in from other states. The goal of my project is to determine if these "Weed Pirates" are having any significant impact on crime rates in regions where Cannabis has been legalized.
 
 # Process
-To see the long term effects of legalization I began by looking at crime data from Seattle, since Washington was the first state to fully legalize Cannabis.  I then gathered data from other cities in an attempt to find one with similar trends in the data.  I went through several cities before finding that Portland, Oregon would serve as the best comparison.
+To see the long term effects of legalization I began by finding crime data from cities that had fully legalized as test groups and data from cities that had medical programs as controls.  After digging through several cities I decided to use Seattle as my test and Portland as a control.
 
 This focus of this project is weed piracy, so I decided to look at crime types I associated with piracy: Homicides, Thefts, Robberies, and Burglaries.
 
@@ -38,6 +34,7 @@ Cannabis became fully legal in Seattle in 2012, and in Portland in late 2014.  T
 
 # Challenges
 The most challenging part of this project was sifting through crime datasets and finding a city that could serve as a viable control against Seattle.  In addition, each city had a slightly different method of data entry, so cleaning followed a similar but different process each set.  Furthermore, my data only covers *reported* crimes - if a crime gets unreported or miscategorized it will affect our analysis.
+
 # Technologies and Libraries Used
 * Python
 * Numpy
