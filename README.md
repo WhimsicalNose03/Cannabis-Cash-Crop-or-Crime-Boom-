@@ -35,6 +35,12 @@ Cannabis became fully legal in Seattle in 2012, and in Portland in late 2014.  T
 # Challenges
 The most challenging part of this project was sifting through crime datasets and finding a city that could serve as a viable control against Seattle.  In addition, each city had a slightly different method of data entry, so cleaning followed a similar but different process each set.  Furthermore, my data only covers *reported* crimes - if a crime gets unreported or miscategorized it will affect our analysis.
 
+# Moving Forward
+While I found some significant results, there are a few directions I could go to proceed:
+   * Identify more control cities to compare against Seattle.
+   * Identify different control and test cities more closely associated with the growing process.
+   * Dig deeper into the data I have to determine if proximity to dispensaries has an effect on neighborhood crime rates.
+   
 # Technologies and Libraries Used
 * Python
 * Numpy
