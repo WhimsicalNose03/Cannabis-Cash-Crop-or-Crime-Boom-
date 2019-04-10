@@ -25,7 +25,7 @@ H(alt): There is significant change in violent crime rates coinciding with legal
 ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/burglary_rates.png)
 ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/robbery_rates.png)
 
-(note: crime rates for Portland in 2015 are imputed as average since 2010)
+(note: crime rates for Portland in 2015 are imputed averages from 2010 to 2014)
 
 Cannabis became fully legal in Seattle in 2012, and in Portland in late 2014.  The above plots show illustrate a couple of key things:
 * Murder rate in both cities appears to have spiked in the year of legalization; however, these increases are not statistically significant due to the low rate overall.
@@ -33,7 +33,7 @@ Cannabis became fully legal in Seattle in 2012, and in Portland in late 2014.  T
 * There is not enough evidence in the data to support the hypothesis that Weed Pirates are invading __all__ areas where Cannabis is legal for recreational use.  
 
 # Challenges
-The most challenging part of this project was sifting through crime datasets and finding a city that could serve as a viable control against Seattle.  In addition, each city had a slightly different method of data entry, so cleaning followed a similar but different process each set.  Furthermore, my data only covers *reported* crimes - if a crime gets unreported or miscategorized it will affect our analysis.
+The most challenging part of this project was sifting through crime datasets and finding a city that could serve as a viable control against Seattle.  In addition, each city had a slightly different method of data entry, so cleaning followed a similar but different process each set.  Furthermore, my data only covers __reported__ crimes - if a crime gets unreported or miscategorized it will affect our analysis.
 
 # Moving Forward
 While I found some significant results, there are a few directions I could go to proceed:
