@@ -23,9 +23,9 @@ H(null): There is no significant rise in violent crime rates coinciding with leg
 H(alt): There is significant rise in violent crime rates coinciding with legalization of Cannabis
 
 # Results
-   ![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/homicide_rates.png)![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/theft_rates.png)
-![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/burglary_rates.png)
-![alt text](https://github.com/WhimsicalNose03/Final-Project/blob/master/plots/robbery_rates.png)
+   ![alt text](https://github.com/WhimsicalNose03/Cannabis-Cash-Crop-or-Crime-Boom-/blob/master/homicide_rates.png)![alt text](https://github.com/WhimsicalNose03/Cannabis-Cash-Crop-or-Crime-Boom-/blob/master/theft_rates.png)
+![alt text](https://github.com/WhimsicalNose03/Cannabis-Cash-Crop-or-Crime-Boom-/blob/master/burglary_rates.png)
+![alt text](https://github.com/WhimsicalNose03/Cannabis-Cash-Crop-or-Crime-Boom-/blob/master/robbery_rates.png)
 
 (note: crime rates for Portland in 2015 are imputed averages from 2010 to 2014)
 
