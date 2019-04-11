@@ -29,9 +29,7 @@ H(alt): There is significant rise in violent crime rates coinciding with legaliz
 
 (note: crime rates for Portland in 2015 are imputed averages from 2010 to 2014)
 
-From our graphs above we actually only get significant results for Burglary in both Seattle (p = 0.00043) and Portland (p < 0.00001).  However, these rates are both going __down__ instead of spiking.  The rest of our observed changes are not statistically significant.
-
-The data does not provide enough evidence to accept our alternate hypothesis.  Rather, the significant decrease in burglaries suggests the opposite of the articles claims.
+From our graphs above I find zero evidence of increasing rates of violent crimes.  Instead, there are a couple categories that appear to trend __downward__ once legalization occurs.  Therefore the data does not provide enough evidence to accept our alternate hypothesis.  
 
 # Challenges
 The most challenging part of this project was sifting through crime datasets and finding a city that could serve as a viable control against Seattle.  In addition, each city had a slightly different method of data entry, so cleaning followed a similar but different process each set.  Furthermore, my data only covers __reported__ crimes - if a crime gets unreported or miscategorized it will affect our analysis.
